@@ -2,12 +2,15 @@
 
 <head>
     <title>Advanced WP Theme</title>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?> ">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <h1>Advanced Wordpress Theme</h1>
+            <h1><a href="index.html">Advanced Wordpress Theme</a>
+                <small>Another Wordpress Theme</small>
+            </h1>
             <div class="h_right">
                 <form>
                     <input type="text" placeholder="Search...">
@@ -46,11 +49,19 @@
             </article>
             <a class="button" href="#">Read More</a>
         </div>
+        <div class="side">
+            <div class="block">
+                <h3>Sidebar Head</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nam vel diam hendrerit erat fermentum aliquet sed eget arcu.</p>
+                <a class="button">More</a>
+            </div>
+        </div>
     </div>
     <footer class="main-footer">
         <div class="container">
             <div class="f_left">
-                <p>&amp;copy; 2024 - Advanced WP Theme</p>
+                <p>Todos los derechos Reservados &copy; 2024 - Advanced WP Theme</p>
             </div>
             <div class="f_right">
                 <ul>
