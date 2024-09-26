@@ -141,3 +141,11 @@ footer.main-footer li {
   padding-right: 10px;
   list-style: none;
 }
+article.post .meta {
+  background: #cdca00;
+  color: #fff;
+  padding: 7px;
+}
+article.post .meta a {
+  color: #fff;
+}
