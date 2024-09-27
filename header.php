@@ -23,7 +23,7 @@
             </h1>
             <div class="h_right">
                 <form method="get" action="<?php esc_url(home_url('/')); ?>">
-                    <input type="text" placeholder="Buscar...">
+                    <input type="text" name="s" placeholder="Buscar...">
                 </form>
             </div>
         </div>
