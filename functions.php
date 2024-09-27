@@ -10,6 +10,8 @@
                 'footer' => __('Footer Menu')
             )
         );
+        //post format support
+        add_theme_support('post-formats',array('aside','gallery','link','audio','video','chat'));
     }
     //longitud del extracto
     function adv_set_excerpt_length(){

@@ -166,3 +166,20 @@ article .post-thumbnail img {
   margin: 0;
   padding: 0;
 }
+article.post-aside small {
+  font-weight: bold;
+}
+article.post-aside .well {
+  background: #fafce0;
+  padding: 10px;
+}
+article.post-link .well {
+  background: #f4f4f4;
+  padding: 10px;
+}
+article.post-gallery {
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
