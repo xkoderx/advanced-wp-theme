@@ -8,6 +8,7 @@
         <?php else: ?>
         <?php wpautop('Disculpa, no se encontraron posts') ?>
         <?php endif; ?>
+        <?php comments_template(); ?>
     </div>
     <div class="side">
         <div class="block">
