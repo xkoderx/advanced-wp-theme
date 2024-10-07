@@ -5,7 +5,6 @@
             <?php the_title(); ?>
         </a>
     </h4>
-    test
     <p>Publicado el:
         <?php the_time('F j, Y g:i a'); ?>
     </p>

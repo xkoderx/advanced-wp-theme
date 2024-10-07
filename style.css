@@ -217,7 +217,7 @@ figure img {
   float: left;
   margin-right: 20px;
   padding-right: 20px;
-  border-right: 1px solid #009acd;
+  border-right: 1px solid #cdca00;
 }
 .sub-nav .parent-link a {
   font-weight: bold;
@@ -233,6 +233,33 @@ figure img {
   margin-bottom: 20px;
 }
 .side-widget li {
+  list-style: none;
+  line-height: 2.1em;
+  border-bottom: 1px dotted #ccc;
+}
+.showcase {
+  background: #fafce0;
+  padding: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.showcase h1 {
+  text-align: center;
+}
+.box {
+  width: 31%;
+  float: left;
+  padding: 0 6px;
+}
+.box h3 {
+  text-align: center;
+  background: #cdca00;
+  padding: 5px;
+  color: #fff;
+  border-radius: 1vh;
+}
+.side-widget li,
+.box li {
   list-style: none;
   line-height: 2.1em;
   border-bottom: 1px dotted #ccc;
